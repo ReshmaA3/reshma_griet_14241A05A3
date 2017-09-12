@@ -26,6 +26,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getStudents() {
 		// Add your implementation here
+          
 		return null;
 	}
 
@@ -47,22 +48,29 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void addFirst(Student student) {
-		// Add your implementation here
+		if(!student.contains(studnet));
+student.addFirst(student);
+return true;
+}
+return false;
+
 	}
 
 	@Override
 	public void addLast(Student student) {
-		// Add your implementation here
+		if(!student.contains(studnet));
+student.addLast(student);
+return null;
 	}
 
 	@Override
 	public void add(Student student, int index) {
-		// Add your implementation here
+		student.add()// Add your implementation here
 	}
 
 	@Override
 	public void remove(int index) {
-		// Add your implementation here
+		student.remove(index);// Add your implementation here
 	}
 
 	@Override
@@ -72,12 +80,12 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void removeFromIndex(int index) {
-		// Add your implementation here
+		return student.removeFromIndex(index);// Add your implementation here
 	}
 
 	@Override
 	public void removeFromElement(Student student) {
-		// Add your implementation here
+		return student.removeFromElement(student);// Add your implementation here
 	}
 
 	@Override
